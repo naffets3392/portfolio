@@ -1,38 +1,196 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* HOME PAGE */
+.home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__container-image__container {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 3rem;
+  border: 5px solid whitesmoke;
+}
+
+.home__container-heading__container h1 {
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+.home__container-heading__container h3 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.home__container-heading__container h4 {
+  font-size: 3rem;
+}
+
+.home__container-heading__container span {
+  color: greenyellow;
+  border-left: 3px solid rgba(245, 245, 245, 0.293);
+  margin-left: 3rem;
+  padding-left: 1rem;
+}
+
+.home__container-links {
+  margin-top: 3rem;
+}
+
+.home__container-links .link {
+  background-color: whitesmoke;
+  color: #302b63;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.home__container-links .link:hover {
+  background-color: greenyellow;
+}
+
+
+.home__container-links .link2 {
+  margin-left: 3rem;
+}
+
+/* ABOUT ME PAGE */
+.about-me__container {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me__container h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
+}
+
+.about-me__container h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.about-me__container span {
+  color: greenyellow;
+}
+
+.home-link {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  background-color: whitesmoke;
+  color: #302b63;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-link:hover {
+  background-color: greenyellow;
+}
+
+.cv-button {
+  background-color: whitesmoke;
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  color: #302b63;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cv-button:hover {
+background-color: greenyellow;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.linkedIn-icon {
+  font-size: 5rem;
+}
+
+/* PROJECTS PAGE */
+
+.projects__container h1 {
+  font-size: 7rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.PROJECTS__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 0px 5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.project__container {
+  border-radius: 1rem;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.project__container img {
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.project__container a {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: whitesmoke;
+  color: #302b63;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.project__container a:Hover {
+ background-color: greenyellow;
 }
+
