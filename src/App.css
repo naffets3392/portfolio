@@ -19,6 +19,8 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: top;
+  text-align: center;
 }
 
 /* HOME PAGE */
@@ -146,7 +148,7 @@ background-color: greenyellow;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 25%;
+  width: 30%;
 }
 
 .linkedIn-icon {

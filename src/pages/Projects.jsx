@@ -5,11 +5,14 @@ import memorygamePic from '../projectimages/memorygame.png'
 import todolistPic from '../projectimages/todolist.png'
 import calculatorPic from '../projectimages/calculator.png'
 import menuPic from '../projectimages/menu.png'
+import pokemonPic from '../projectimages/pokemon.png'
 
 const calculatorProject = 'https://calculator-project-ezt.pages.dev/'
 const memorygameProject = 'https://memorygame-project.pages.dev/'
 const menuProject = 'https://menu-project-eys.pages.dev/'
 const todolistProject = 'https://todolist-project.pages.dev/'
+const pokemonProject = 'https://pokemon-project-2tp.pages.dev/'
+
 
 const PROJECTS = [
     {
@@ -27,6 +30,10 @@ const PROJECTS = [
     {
         image: menuPic,
         link: menuProject
+    },
+    {
+        image: pokemonPic,
+        link: pokemonProject
     }
 ]
 
