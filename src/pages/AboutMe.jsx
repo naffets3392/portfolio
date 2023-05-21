@@ -14,7 +14,7 @@ export default function AboutMe() {
             every step of my journey.
             </h3>
             <div className="links-container">
-                <a className="cvDownload" href="StefanCV.pdf" download='StefanCV.pdf' target="_blank">CV Download</a>
+                <a className="cvDownload" href="SScv.pdf" download='SScv.pdf' target="_blank">CV Download</a>
                 <Link to='https://www.linkedin.com/in/stefan-stevic/' target="_blank"><RiLinkedinBoxFill className="icon linkedIn-icon"/></Link>
             </div>
             <Link className="home-link" to='/'>Home</Link>
