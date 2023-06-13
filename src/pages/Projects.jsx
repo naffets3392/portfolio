@@ -7,6 +7,7 @@ import calculatorPic from '../projectimages/calculator.png'
 import menuPic from '../projectimages/menu.png'
 import pokemonPic from '../projectimages/pokemon.png'
 import shopPic from '../projectimages/shop.png'
+import shopProjectver2Pic from '../projectimages/shopprojectver2.png'
 
 const calculatorProject = 'https://calculator-project-ezt.pages.dev/'
 const memorygameProject = 'https://memorygame-project.pages.dev/'
@@ -14,6 +15,7 @@ const menuProject = 'https://menu-project-eys.pages.dev/'
 const todolistProject = 'https://todolist-project.pages.dev/'
 const pokemonProject = 'https://pokemon-project-2tp.pages.dev/'
 const shopProject = 'https://naffets3392.github.io/shopproject/'
+const shopProjectver2 = 'https://naffets3392.github.io/shopprojectver2/'
 
 
 const PROJECTS = [
@@ -40,6 +42,10 @@ const PROJECTS = [
     {
         image: shopPic,
         link: shopProject
+    },
+    {
+        image: shopProjectver2Pic,
+        link: shopProjectver2
     }
 ]
 
