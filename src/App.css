@@ -168,6 +168,7 @@ background-color: greenyellow;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 0px 5rem;
+  margin-top: 5rem;
 }
 
 .project__container {
@@ -180,7 +181,21 @@ background-color: greenyellow;
   object-fit: cover;
 }
 
-.project__container a {
+.gitLink {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: whitesmoke;
+  color: #302b63;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  font-weight: 600;
+}
+
+
+.projectLink{
   text-decoration: none;
   font-size: 2rem;
   background-color: whitesmoke;
@@ -196,4 +211,5 @@ background-color: greenyellow;
 .project__container a:Hover {
  background-color: greenyellow;
 }
+
 

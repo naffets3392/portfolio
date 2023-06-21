@@ -17,35 +17,49 @@ const pokemonProject = 'https://pokemon-project-2tp.pages.dev/'
 const shopProject = 'https://naffets3392.github.io/shopproject/'
 const shopProjectver2 = 'https://naffets3392.github.io/shopprojectver2/'
 
+const shopProjectGit = 'https://github.com/naffets3392/shopproject'
+const shopProjectVer2Git = 'https://github.com/naffets3392/shopprojectver2'
+const pokemonProjectGit = 'https://github.com/naffets3392?tab=repositories'
+const menuProjectGit = 'https://github.com/naffets3392/menu-project'
+const todoListProjectGit = 'https://github.com/naffets3392/todolist-project'
+const calculatorProjectGit = 'https://github.com/naffets3392/calculator-project'
+const memoryGameProjectGit = 'https://github.com/naffets3392/memorygame-project'
 
 const PROJECTS = [
     {
         image: memorygamePic,
-        link: memorygameProject
+        link: memorygameProject,
+        git: memoryGameProjectGit
     },
     {
         image: todolistPic,
-        link: todolistProject
+        link: todolistProject,
+        git: todoListProjectGit
     },
     {
         image: calculatorPic,
-        link: calculatorProject
+        link: calculatorProject,
+        git: calculatorProjectGit
     },
     {
         image: menuPic,
-        link: menuProject
+        link: menuProject,
+        git: menuProjectGit
     },
     {
         image: pokemonPic,
-        link: pokemonProject
+        link: pokemonProject,
+        git: pokemonProjectGit
     },
     {
         image: shopPic,
-        link: shopProject
+        link: shopProject,
+        git: shopProjectGit
     },
     {
         image: shopProjectver2Pic,
-        link: shopProjectver2
+        link: shopProjectver2,
+        git: shopProjectVer2Git
     }
 ]
 
@@ -58,7 +72,8 @@ export default function Projects() {
                 {PROJECTS.map(project => {
                     return <div className="project__container">
                         <img src={project.image} alt="" />
-                        <a href={project.link} target="_blank">See project</a>
+                        <a className="projectLink" href={project.link} target="_blank">See project</a>
+                        <a className="gitLink" href={project.git} target="_blank">GitHub</a>
                     </div>
                 })}
             </div>
